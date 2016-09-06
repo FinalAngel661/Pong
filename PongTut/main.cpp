@@ -2,8 +2,17 @@
 #include <time.h>
 #include <conio.h>
 //#include "sfwdraw.h"
+
+/*
+	Written by FinalAngel661
+	this is a text based classic pong game.
+	Currently working on how to make it stop blinking!
+
+*/
+
+
 using namespace std;
-//
+
 enum eDir {STOP = 0, LEFT = 1, UPLEFT = 2, DOWNLEFT = 3, RIGHT = 4, UPRIGHT = 5, DOWNRIGHT = 6};
 
 class cBall
